@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../../styles/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../../styles/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../modules/flamboyant-props.min.css"/>
+</head>
+<body role="application">
+  <header>
+    <button class="acessBtn"><img src="../../assets/img/acess.svg" alt=""></button>
+    <button class="menuBtn" onclick="navigate.goto('pag09')"><img src="../../assets/img/menu.svg" alt=""></button>
+  </header>
+  <interection>
+    <div class="container-interaction-arrows bottom   ">
+      <button class="container-arrow container-arrow-left arrow-left" tabindex="1001" role="button" aria-label="Voltar para a tela anterior." title="Seta para esquerda."></button>
+      <button class="container-arrow container-arrow-right arrow-right pulse" tabindex="1000" role="button" aria-label="Avançar para a próxima tela." title="Seta para direita."></button>
+    </div>
+  </interection>
+  <body class="color-bg-white" prev-page="pag09" next-hide>
+    <div class="simplePage">
+      <section class="full-H"><img class="logoTop" src="../../assets/img/logo-colorido.svg" alt="">
+        <div class="container-template-wildcard prop-bg-fixed">
+          <div class="row-wrap">
+            <div class="col col-bg   col-01   left" alt="" aria-label="" tabindex="-1">
+              <div class="col-bg-int" style="background-image: url(../../assets/img/tr03-01.png);"></div>
+              <div class="wrapper">
+              </div>
+            </div>
+            <div class="col    col-02   prop-pt5 prop-pb5 prop-tablet-pt2 prop-tablet-pb7 right" alt="" aria-label="" tabindex="-1">
+              <div class="wrapper">
+                <h3 class="subtitle color-02" tabindex="1">Colonialidade do ser</h3>
+                <p class="text" tabindex="2">O conceito de <b>colonialidade do ser</b>, desenvolvido por autores como Walter Mignolo e Nelson Maldonado-Torres, refere-se à <b>desumanização</b> e à <b>subordinação ontológica</b> dos povos colonizados. Esse conceito vai além da dimensão política e econômica do colonialismo, abordando como a colonização afetou profundamente a essência, a existência e a subjetividade dessas populações.</p>
+                <p class="text" tabindex="3">Mignolo e Maldonado-Torres afirmam que o processo colonial não se limitou à exploração material, mas também impôs identidades e modos de ser que colocaram a população colonizada em uma posição de inferioridade.</p>
+                <div class="container-btn">
+                  <button class="botao prop-mt1 pulse infinite" tabindex="4" aria-label="Saiba mais" data-modal="#pop01" item="" onClick="">
+                    <div class="container-image"><img class="prop-h4 img-shadow" src="../../assets/img/saiba02.svg" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal interaction-modal parent-inside-col modal modal-comum" id="pop01">
+          <div class="flex-center">
+            <div class="box in delay1" aria-label="janela" aria-modal="aria-modal" role="dialog" tabindex="5">
+              <div class="container-template-wildcard">
+                <div class="col   col-one col-01  col-full shadow color-bg-01" alt="" aria-label="" tabindex="-1">
+                  <div class="wrapper">
+                    <div class="container-item-card prop-p2 prop-pt4 shadow">
+                      <h3 class="subtitle color-white prop-w-porc100" tabindex="1">Subordinação ontológica</h3>
+                      <p class="text prop-w-porc100 color-white" tabindex="2">A <b>ontologia</b> é um ramo da filosofia dedicado a investigar o que existe e como categorizamos essas existências, com foco na natureza da realidade. Ela envolve questionamentos profundos sobre o que existe e o que significa existir, abrangendo não apenas aspectos físicos, mas também ideias, emoções e relações.</p>
+                      <p class="text prop-w-porc100 color-white" tabindex="3">A <b>subordinação ontológica</b> é uma forma de dominação onde um grupo é considerado existencialmente inferior ou menos valioso que outro dentro de uma estrutura social, política ou cultural. Isso leva à desvalorização e marginalização de certas identidades, resultando frequentemente em discriminação e exclusão sistemáticas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="modal-close animated pulse infinite" aria-label="Fechar modal." arrow_status_class="libera"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</body>
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../scripts/jquery-ui.min.js"></script>
+<script src="../../scripts/jquery.ui.touch-punch.min.js"></script>
+<script src="../../scripts/components.mixin.scripts.js"></script>
+<script src="../../scripts/page.js"></script>
+<script src="script.js"></script>
