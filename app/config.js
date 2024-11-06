@@ -1,6 +1,6 @@
 var config = {
     salvarDados: true,
-    debug: false,
+    debug: true,
     waterMark: false,
     language: 'pt-br',
     video: 'default',
@@ -8,7 +8,7 @@ var config = {
         name: 'default'
     },
     acessibility: {
-        tools: true,
+        tools: false,
         outlines: false,
         vlibras: false,
         customLibras: false
@@ -145,6 +145,14 @@ var config = {
         {
             uid: 'trilha4-10',
             src: 'trilha4-10/index.html'
+        },
+        {
+            uid: 'trilha4-11',
+            src: 'trilha4-11/index.html'
+        },
+        {
+            uid: 'trilha4-12',
+            src: 'trilha4-12/index.html'
         }
     ]
 };
