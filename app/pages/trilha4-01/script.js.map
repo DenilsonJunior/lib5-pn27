@@ -1,1 +1,1 @@
-{"version":3,"sources":["script.js"],"names":["events","on"],"mappings":"AAAAA,OAAOC,GAAG,QAAS,YAElB","file":"script.js","sourcesContent":["events.on('ready', function() {\r\n    \r\n});"]}
+{"version":3,"sources":["script.js"],"names":["events","on","$","attr"],"mappings":"AAAAA,OAAOC,GAAG,QAAS,WACbC,EAAA,YAAcC,EAAAA,KAAK,WAAY,IAAK,CAC1C,CAAC","file":"script.js","sourcesContent":["events.on('ready', function() {\r\n    $('.smalltext').attr('tabindex', '-1');\r\n});"]}
